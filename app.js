@@ -1,9 +1,9 @@
 var express = require('express')
 var app = express()
-var body Parser = require('body-parser')
-vor router = require('./router/index')
+var bodyParser = require('body-parser')
+var router = require('./router/index')
 
-app.Listen(3000m function() {
+app.Listen(3000, function() {
   console.log("start! express server on port 3000!!")
  });
  
